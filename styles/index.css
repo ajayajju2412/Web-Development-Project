@@ -1,4 +1,19 @@
-body, html, #mainContainer{
-    height: 100%;
-    width: 100%;
+
+
+#div1{
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+}
+
+#div2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#cards{
+    padding: 4%;
+    border-radius: 25%;
 }
