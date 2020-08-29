@@ -1,11 +1,10 @@
-
-
 #div1{
     background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 380px;
+    text-align: center;
 }
 
 #div2{
@@ -17,3 +16,21 @@
     padding: 4%;
     border-radius: 25%;
 }
+
+#searchbar{
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background-color: #f1f1f1   ;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+    width: 25%;
+}
+
+#div3{
+    text-align: center;
+    padding-bottom  : 3%;
+}
+
+

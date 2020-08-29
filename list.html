@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
         <title>List</title>
         <link rel="stylesheet" href="styles/common.css">
         <link rel="stylesheet" href="styles/list.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
     </head>
     <body>
         <div id="mainContainer">
             <header>
-                <a href="index.html"><img src="file:///F:/UPGRAD/FSD/course6/Project/Hotel_Booking_Website_Starter_Code/assests/images/logo.png" alt="logo" style="height: 60px; width: 60px;"></a>
-                <a href="login.html" target="_self">Login</a><br>
+                <a href="index.html"><img src="file:///F:/UPGRAD/FSD/course6/Project/Hotel_Booking_Website_Starter_Code/assests/images/logo.png" alt="logo" class="logo" ></a>
+                <a href="login.html" target="_self" class="login">Login</a>
             </header>
             <div>
-                <ul>
-                    <li><a href="#list-view">List View</a></li>
-                    <li><a href="#map-view">Map View</a></li>
+                <ul id="list">
+                    <li><a href="#list-view" class="li" >List View</a></li>
+                    <li><a href="#map-view" class="li" >Map View</a></li>
                 </ul>
                     <div id="list-view">
                         <div id="card1">
@@ -49,13 +50,14 @@
                         MAP VIEW
                     </div>
             </div>
-            <br>
             <footer>
-                <a href="contact.html" target="_self">Contact Us</a><br>
+                <a href="contact.html" target="_self" class="contact">Contact Us</a>
+                <div class="socialmedia">
                 <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" style="height: 20px; width: 22px;"></a>
                 <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" style="height: 20px; width: 22px;"></a>
-                <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" style="height: 20px; width: 22px;"></a><br>
-                &copy; 2020 ROOM SEARCH PVT LTD.
+                <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" style="height: 20px; width: 22px;"></a>
+                </div>
+                <p class="copyright">&copy; 2020 ROOM SEARCH PVT LTD.</p>
             </footer>
         </div>
     </body>

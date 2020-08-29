@@ -8,6 +8,57 @@ body, html{
     background-color: #e0e0e0;
 }
 
-header, footer{
+header{
     background-color: rosybrown;
+    position: sticky;
+    top: 0;
+}
+
+footer{
+    background-color: rosybrown;
+    position: sticky;
+    bottom: 0;
+}
+
+body, html{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+A{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.login{
+    color: black;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+.contact{
+    color: black;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.copyright{
+    font-size: 10px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.socialmedia{
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 10px;
 }
