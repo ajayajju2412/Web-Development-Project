@@ -1,10 +1,12 @@
 
 #card1, #card2, #card3{
     margin: 3% 50px;
-    background-color:  rgb(132,136,139);
+    /* background-color:  rgb(132,136,139); */
+    background-color: lightgrey ;
     width: 40%;
     display: inline-block;
 }
+   
 
 #list{
     margin-left: auto;
@@ -26,3 +28,13 @@ li{
 #map-view{
     display: none;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.right{
+    padding: 0.5em 1em 1em 1em;
+}
+

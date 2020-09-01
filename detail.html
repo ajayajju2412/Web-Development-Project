@@ -14,36 +14,43 @@
                 <a href="login.html" target="_self" class="login">Login</a>
             </header>
             <div>
-                <div id="div1">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="height: 500px; width: 500px;"><br>
-                </div>
-                <div id="div2">
-                <form action="payment.html" method="get" target="_self">
-                    <label for="adult">Adults:</label>
-                    <input type="number" id="adult" name="adult" min="1" required>
-                    <br>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <br>
-                    <label for="fromDate">From Date:</label>
-                    <input type="date" id="fromDate" name="fromDate" required>
-                    <br>
-                    <label for="toDate">To Date:</label>
-                    <input type="date" id="toDate" name="toDate" required>
-                    <br>
-                    <label for="price">Total:</label>
-                    <input type="number" id="price" name="price" readonly>
-                    <br>
-                    <input type="submit" value="Book Now">
-                </form>
+                <div id="detailscontainer">
+                    <div id="div1">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="height: 350px; width: 500px;"><br>
+                    </div>
+                        <form action="payment.html" method="get" target="_self" id="div2">
+                            <div class="innercontainer">
+                                <label for="adult" >Adults:</label>
+                                <input type="number"  id="adult" name="adult" min="1" required>
+                            </div>
+                            <div class="innercontainer">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="innercontainer">
+                                <label for="fromDate">From Date:</label>
+                                <input type="date" id="fromDate" name="fromDate" required>
+                            </div>
+                            <div class="innercontainer">
+                                <label for="toDate">To Date:</label>
+                                <input type="date" id="toDate" name="toDate" required>
+                            </div>
+                            <div class="innercontainer">
+                                <label for="price">Total:</label>
+                                <input type="number" id="price" name="price" readonly>
+                            </div>
+                            <div class="innercontainer">
+                                <input type="submit" value="Book Now" class="bookNow">
+                            </div>
+                        </form>
                 </div>
                 <div id="div3">
                 <h2>Radisson Blu Hotel</h2>
-                RATING<br>
+                <span class="text">RATING</span><br>
                 <br>
                 5 Star<br>
                 <br>
-                AMENITIES
+                <span class="text">AMENITIES</span>
                 <ul>
                     <li>Room service</li>
                     <li>Restaurant</li>
@@ -51,7 +58,7 @@
                     <li>Fitness center</li>
                     <li>Pool</li>
                 </ul>
-                <h5>DESCRIPTION</h5>
+                <span class="text"><h5>DESCRIPTION</h5></span>
                 Set 1.3 km from Jwala Heri open-air market, this upscale, neo-Gothic-style hotel is also 16 km from Indira Gandhi International Airport.
                 </div>
             </div>
