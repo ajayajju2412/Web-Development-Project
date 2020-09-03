@@ -31,12 +31,12 @@ li{
     font-weight: bold;
 }
 
-#list-view{
+/* #list-view{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} */
 
 
 .container {
