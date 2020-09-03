@@ -50,15 +50,26 @@
     margin-top: 170px;
     margin-bottom: 170px;
     width: 24em;
+} 
+
+input{
+    /* bs */
+    font-family: 'Ubuntu', sans-serif;
+    line-height: normal;
 }
 
 #div3{
     text-align: center;
-    padding-bottom  : 2em;
+    padding-bottom  : 6em;
 }
 
-.content{
+.mainContainer{
+    height: auto;
+}
+
+#content{
     display: flex;
+    flex-direction: column;
 }
 
 #searchbar:focus{

@@ -1,5 +1,4 @@
 body, html, #mainContainer{
-    height: 100%;
     width: 100%;
 }
 
@@ -29,10 +28,16 @@ footer{
 
 body, html{
     font-family: 'Ubuntu', sans-serif;
+    line-height: unset;
     
 }
 
-A{
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
     text-decoration: none;
     color: black;
 }
@@ -60,5 +65,15 @@ A{
 .socialmedia{
     order: 3;
     margin-right: 2%;
+}
+
+body{
+    /* bs for social media & copyright*/
+    color: black;
+}
+
+p{
+    /* bs for copyright */
+    margin: unset;
 }
 
